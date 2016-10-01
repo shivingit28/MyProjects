@@ -45,8 +45,8 @@ string changeGender(string str)
 		{
 			// If this is a 'male' or a 'female' word then
 			// swap this with its counterpart
-      
-      if (dictionary.find(temp) != dictionary.end())
+			
+			if (dictionary.find(temp) != dictionary.end())
 				temp = dictionary.find(temp)->second;
 				
 			ans = ans + temp + ' ';

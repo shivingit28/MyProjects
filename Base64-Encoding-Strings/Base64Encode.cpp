@@ -2,18 +2,13 @@
  A C++ program to encode many strings
  into Base64. There will be many queries and each of the
  query demands the encoded string into Base64 format
- Implemented By- Rachit Belwariar
- This project has been uploaded on my Github account
- Link:- https://github.com/gbelwariar
  The purpose of the program is to reduce the time 
  complexity in encoding many strings to Base64.
  In order to achieve this we have used a map
  Time Complexity- O(No_of_Strings * Avg_length_of_each_String)
  
  Space Complexity- O(Avg_length_of_each_String) 
- 
- Implementation Date:- 30th July 2016
-*/
+ */
 
 #include<bits/stdc++.h>
 using namespace std;

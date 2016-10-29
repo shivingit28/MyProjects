@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gamecube.calcu.MainActivity"
+    android:id="@+id/relative_layout_id"
+    android:background="@color/switch_thumb_disabled_material_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:background="@color/abc_input_method_navigation_guard">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="1"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_1"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:id="@+id/btn_1" />
+            <Button
+
+                android:layout_width="73dp"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="2"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_2"
+                android:id="@+id/btn_2" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:text="3"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_3"
+                android:id="@+id/btn_3" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="&amp;"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_and"
+                android:id="@+id/btn_and" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="ISP"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_isp"
+                android:id="@+id/btn_isp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="4"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_4"
+                android:id="@+id/btn_4" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="5"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_5"
+                android:id="@+id/btn_5" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="6"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_6"
+                android:id="@+id/btn_6" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="|"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_or"
+                android:id="@+id/btn_or" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="GCD"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_gcd"
+                android:id="@+id/btn_gcd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="7"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_7"
+                android:id="@+id/btn_7" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="8"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_8"
+                android:id="@+id/btn_8" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="9"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_9"
+                android:id="@+id/btn_9" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="~"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_not"
+                android:id="@+id/btn_not" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="MOD"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_mod"
+                android:id="@+id/btn_mod" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="."
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_dot"
+                android:id="@+id/btn_dot" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_0"
+                android:id="@+id/btn_0" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="CLR"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_clr"
+                android:id="@+id/btn_clr" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="^"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_xor"
+                android:id="@+id/btn_xor" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:text="**"
+                android:onClick="onClick_pow"
+                android:id="@+id/btn_pow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="+"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_add"
+                android:id="@+id/btn_add" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="-"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_sub"
+                android:id="@+id/btn_sub" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="*"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_mul"
+                android:id="@+id/btn_mul" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="/"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_div"
+                android:id="@+id/btn_div" />
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="="
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:background="@color/abc_input_method_navigation_guard"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:onClick="onClick_equals"
+                android:id="@+id/btn_equals" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/first_string_part" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/operation_part" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/second_string_part" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/result_part" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Syed Hassan Ashraf"
+        android:textAlignment="center"
+        android:id="@+id/textView5"
+        android:background="@color/abc_input_method_navigation_guard"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_above="@+id/linearLayout"
+        android:textSize="30dp"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
